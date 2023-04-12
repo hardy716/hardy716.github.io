@@ -1,1 +1,0 @@
-# hardy716.github.io
