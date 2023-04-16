@@ -1,10 +1,10 @@
 ---
 layout: project
-title: 'Hydejack Site'
-caption: Dogfooding Hydejack to sell Hydejack.
+title: 'MAK-E-AT'
+caption: YOLOv5 AI 모델을 활용한 식단 관리 및 영양 분석 애플리케이션
 description: >
-  While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
-date: '01-01-2016'
+  [깃헙 주소(https://github.com/MAK-E-AT)
+date: '04-16-2023'
 image: 
   path: /assets/img/projects/hydejack-site.jpg
   srcset: 
@@ -13,6 +13,6 @@ image:
     480w:  /assets/img/projects/hydejack-site@0,25x.jpg
 links:
   - title: Link
-    url: https://hydejack.com/
+    url: https://github.com/MAK-E-AT/
 sitemap: false
 ---
