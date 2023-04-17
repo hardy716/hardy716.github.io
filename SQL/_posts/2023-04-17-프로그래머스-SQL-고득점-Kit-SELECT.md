@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Programmers - 프로그래머스 SQL 고득점 Kit
+title: Programmers SQL High Score Kit - SELECT
 image: /assets/img/blog/sql.jpg
 accent_image: 
   background: url('/assets/img/blog/sql.jpg') center/cover
@@ -8,7 +8,7 @@ accent_image:
 accent_color: '#ccc'
 theme_color: '#ccc'
 description: >
-  프로그래머스 스쿨에서 제공하는 SQL 고득점 Kit입니다. 
+  프로그래머스 스쿨에서 제공하는 SQL 고득점 Kit : SELECT 입니다. 
 invert_sidebar: true
 ---
 
@@ -153,33 +153,6 @@ invert_sidebar: true
     ORDER BY SCORE DESC, I.FAVORITES DESC
     ```
     - [오프라인/온라인 판매 데이터 통합하기](https://school.programmers.co.kr/learn/courses/30/lessons/131537)
-    ```sql
-    (
-    SELECT
-        DATE_FORMAT(SALES_DATE, '%Y-%m-%d') AS SALES_DATE,
-        PRODUCT_ID,
-        USER_ID,
-        SALES_AMOUNT
-    FROM
-        ONLINE_SALE
-    WHERE
-        (YEAR(SALES_DATE) = 2022) AND (MONTH(SALES_DATE) = 3)
-    )   
-    UNION ALL
-    (
-    SELECT
-        DATE_FORMAT(SALES_DATE, '%Y-%m-%d') AS SALES_DATE,
-        PRODUCT_ID,
-        NULL AS USER_ID,
-        SALES_AMOUNT
-    FROM
-        OFFLINE_SALE
-    WHERE
-        (YEAR(SALES_DATE) = 2022) AND (MONTH(SALES_DATE) = 3)
-    )
-    ORDER BY
-        SALES_DATE, PRODUCT_ID, USER_ID
-    ```
     ```sql
     WITH SALES_DATA AS (
         SELECT  SALES_DATE
