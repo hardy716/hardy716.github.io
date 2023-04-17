@@ -3,7 +3,7 @@ layout: post
 title: Programmers SQL High Score Kit - GROUP BY
 image: /assets/img/blog/programmers.jpg
 accent_image: 
-  background: url('/assets/img/sidebar-bg2.jpg') center/cover
+  background: url('/assets/img/sidebar-bg3.jpg') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'
