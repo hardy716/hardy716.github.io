@@ -9,7 +9,7 @@ basics:
   phone: ""
   website: ""
   summary: >
-    Hardy from South Korea.
+    Hardy, student in ROK.
   location:
     address: "7 Galmi St"
     postalCode: "16040"
@@ -25,16 +25,15 @@ basics:
       url: "https://www.linkedin.com/in/devhardy/?original_referer="
 work:
   - company: "KOITA 한국산업기술진흥협회"
-    position: "전산직 근무"
+    position: ""
     website: "https://www.koita.or.kr/main/main.aspx"
     startDate: "2023-02-27"
     endDate: ""
     summary: >
-      Create 200-300 line query statements for labs and dedicated departments.
-      Fix the bug or change the code as requested to fix the homepage.
+      Mainly responsible for home page and in-house system modification and maintenance, and data extraction was carried out by creating queries if necessary
     highlights:
       - "Create 200-300 line query statements for labs and dedicated departments."
-      - "Fix the bug or change the code as requested to fix the homepage."
+      - "Fix the bug or change the code as requested to fix the homepage with ASP.NET."
 #volunteer:
 #  - organization: "CoderDojo"
 #    position: "Teacher"
@@ -50,7 +49,7 @@ education:
     studyType: "Bachelor"
     startDate: "2017-03-01"
 #    endDate: ""
-#    gpa: ""
+#    gpa: "0.0"
 #    courses: ""
 #awards:
 #  - title: ""
