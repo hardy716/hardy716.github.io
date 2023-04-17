@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Programmers SQL High Score Kit - String, Date
-image: /assets/img/blog/sql-string,date.jpg
+image: /assets/img/blog/programmers.jpg
 accent_image: 
-  background: url('/assets/img/blog/sql.jpg') center/cover
+  background: url('/assets/img/sidebar-bg2.jpg') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'
