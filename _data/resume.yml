@@ -51,7 +51,7 @@ education:
     startDate: "2017-03-01"
     endDate: ""
     gpa: ""
-    courses: - ""
+    courses: ""
 awards:
   - title: ""
     date: ""
