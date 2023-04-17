@@ -23,29 +23,29 @@ basics:
     - network: "LinkedIn"
       username: "신현호"
       url: "https://www.linkedin.com/in/devhardy/?original_referer="
-#work:
-#  - company: "Pied Piper"
-#    position: "CEO/President"
-#    website: "https://piedpiper.com"
-#    startDate: "2013-12-01"
-#    endDate: ""
-#    summary: >
-#      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-#      consistently fielded high Weisman Scores™ that are not merely competitive,
-#      but approach the theoretical limit of lossless compression.
-#    highlights:
-#      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-#      - "Successfully won Techcrunch Disrupt"
-#      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+work:
+  - company: "KOITA 한국산업기술진흥협회"
+    position: "전산직 근무"
+    website: "https://www.koita.or.kr/main/main.aspx"
+    startDate: "2023-02-27"
+    endDate: ""
+    summary: >
+      Create 200-300 line query statements for labs and dedicated departments.
+      Fix the bug or change the code as requested to fix the homepage.
+
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Create 200-300 line query statements for labs and dedicated departments."
+      - "Fix the bug or change the code as requested to fix the homepage."
+
+#volunteer:
+#  - organization: "CoderDojo"
+#    position: "Teacher"
+#    website: "https://coderdojo.com/"
+#    startDate: "2012-01-01"
+#    endDate: "2013-01-01"
+#    summary: "Global movement of free coding clubs for young people."
+#    highlights:
+#      - "Awarded 'Teacher of the Month'"
 education:
   - institution: "Inha University"
     area: "Mechanical Engineering"
