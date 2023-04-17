@@ -49,20 +49,20 @@ education:
     area: "Mechanical Engineering"
     studyType: "Bachelor"
     startDate: "2017-03-01"
-    endDate: ""
-    gpa: ""
-    courses: ""
-awards:
-  - title: ""
-    date: ""
-    awarder: ""
-    summary: ""
-publications:
-  - name: ""
-    publisher: ""
-    releaseDate: ""
-    website: ""
-    summary: ""
+#    endDate: ""
+#    gpa: ""
+#    courses: ""
+#awards:
+#  - title: ""
+#    date: ""
+#    awarder: ""
+#    summary: ""
+#publications:
+#  - name: ""
+#    publisher: ""
+#    releaseDate: ""
+#    website: ""
+#    summary: ""
 skills:
   - name: "Web Development"
     level: "Junior"
@@ -81,12 +81,12 @@ skills:
 #      - "Mpeg"
 languages:
   - language: "English"
-    fluency: ""
-interests:
-  - name: ""
-    keywords:
-      - ""
-      - ""
-references:
-  - name: ""
-    reference: >
+    fluency: "TOEIC 860"
+#interests:
+#  - name: ""
+#    keywords:
+#      - ""
+#      - ""
+#references:
+#  - name: ""
+#    reference: >
