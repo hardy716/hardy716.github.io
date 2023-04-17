@@ -1,0 +1,38 @@
+---
+layout: post
+title: Programmers - SQL 고득점 Kit
+image: /assets/img/blog/jj-ying.jpg
+accent_image: 
+  background: url('/assets/img/blog/jj-ying.jpg') center/cover
+  overlay: false
+accent_color: '#ccc'
+theme_color: '#ccc'
+description: >
+  Version 9.1 provides minor design changes, new features, and closes multiple issues.
+invert_sidebar: true
+---
+
+# SQL 고득점 Kit
+
+프로그래머스 스쿨 - 코딩테스트 연습 - SQL 고득점 Kit
+
+* toc
+{:toc}
+
+
+## SELECT
+
+
+## SUM, MAX, MIN
+
+
+## GROUP BY
+
+
+## IS NULL
+
+
+## JOIN
+
+
+## String, Date
