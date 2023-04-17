@@ -20,7 +20,7 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 Hardy
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Welcome Hardy's Blog :>
 
 # A list of keywords for your blog
 keywords:              []
@@ -42,20 +42,20 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                <Hyeono> <Shin>
+  email:               <iabc716@icloud.com>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
+  - title:             블로그
     url:               /blog/
-  - title:             Projects
+  - title:             프로젝트
     url:               /projects/
-  - title:             Résumé*
+  - title:             이력서
     url:               /resume/
-  - title:             Documentation
+  - title:             문서
     url:               /docs/
 
 # Add links to the footer.
