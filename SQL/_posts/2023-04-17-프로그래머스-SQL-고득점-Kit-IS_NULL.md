@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Programmers SQL High Score Kit - IS NULL
-image: /assets/img/blog/sql.jpg
+image: /assets/img/blog/sql-is_null.jpg
 accent_image: 
   background: url('/assets/img/blog/sql.jpg') center/cover
   overlay: false

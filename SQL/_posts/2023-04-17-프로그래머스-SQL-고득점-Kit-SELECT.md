@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Programmers SQL High Score Kit - SELECT
-image: /assets/img/blog/sql.jpg
+image: /assets/img/blog/sql-select.jpg
 accent_image: 
   background: url('/assets/img/blog/sql.jpg') center/cover
   overlay: false
