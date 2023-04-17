@@ -51,10 +51,9 @@ education:
     area: "Mechanical Engineering"
     studyType: "Bachelor"
     startDate: "2017-03-01"
-    endDate: ""
-    gpa: ""
-    courses:
-      - ""
+#    endDate: ""
+#    gpa: ""
+#    courses: - ""
 awards:
   - title: ""
     date: ""
