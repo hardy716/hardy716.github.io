@@ -26,6 +26,26 @@ layout: base
 
 {% include components/dingbat.html %}
 
+<div>
+  <script src="https://giscus.app/client.js"
+          data-repo="hardy716/hardy716.github.io"
+          data-repo-id="R_kgDOJVp00g"
+          data-category="General"
+          data-category-id="DIC_kwDOJVp00s4CV1us"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="top"
+          data-theme="light_high_contrast"
+          data-lang="ko"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+  </script>
+</div>
+
+
 {% assign addons = page.addons | default:site.hydejack.post_addons %}
 {% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}
 {% for addon in addons %}
