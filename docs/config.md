@@ -478,12 +478,12 @@ Before you add math content, remember to run `bundle install` and restart Jekyll
 
 ## Adding custom Favicons and App Icons
 ### Changing the Favicon
-By default, Hydejack will use the Favicon from `/assets/icons/favicon.png` and Apple Touch Icon from `/assets/icons/icon-192x192.png`.
+By default, Hydejack will use the Favicon from `/assets/icons/favicon.ico` and Apple Touch Icon from `/assets/image/logo.png`.
 You can either override these files, or override the path in the config file via `favicon` and `app_touch_icon` keys:
 
 ```yml
 # file: "_config.yml"
-favicon: /favicon.png
+favicon: /favicon.ico
 apple_touch_icon: /assets/img/logo.png
 ```
 
