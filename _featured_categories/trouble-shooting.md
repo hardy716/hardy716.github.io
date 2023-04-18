@@ -10,7 +10,7 @@ slug: TROUBLE-SHOOTING
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Solve and record SQL problems in the [Programmers](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit) and [LeetCode](https://leetcode.com/problemset/all/?listId=5htp6xyg&page=1).
+  Troubleshooting is the process of identifying and resolving issues in a system or software.
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true
