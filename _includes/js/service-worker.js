@@ -57,7 +57,7 @@ const STATIC_FILES = [
 ];
 
 const PRE_CACHED_ASSETS = [
-  '{{ "/assets/icons/favicon.ico" | relative_url }}',
+  '{{ "/assets/icons/favicon.png" | relative_url }}',
   /*{% if site.accent_image %}{% unless site.accent_image.background %}*/"{% include_cached smart-url url=site.accent_image %}",/*{% endunless %}{% endif %}*/
   /*{% if site.logo %}*/"{% include_cached smart-url url=site.logo %}",/*{% endif %}*/
   /*{% for file in site.hydejack.offline.precache_assets %}*/"{% include_cached smart-url url=file %}",
