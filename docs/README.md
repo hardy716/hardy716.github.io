@@ -17,3 +17,13 @@ permalink: /docs/
 {:.related-posts.faded}
 
 <!--[menu]: 상대경로.md-->
+
+
+## Project
+* [MAK-E-AT](https://hardy716.github.io/projects/makeat/) --- YOLOv5 AI 모델을 활용한 식단 관리 및 영양 분석 애플리케이션
+
+
+## Resume
+* [Resume](https://hardy716.github.io/resume/) --- 개발자 이력서(영문)
+
+

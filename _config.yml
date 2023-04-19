@@ -55,7 +55,7 @@ menu:
     url:               /projects/
   - title:             이력서
     url:               /resume/
-  - title:             문서
+  - title:             사이트맵
     url:               /docs/
 
 # Add links to the footer.
