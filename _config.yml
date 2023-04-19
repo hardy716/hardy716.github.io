@@ -40,7 +40,7 @@ keywords:              []
 logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
-author: hardy716
+author:
   # Used by `jekyll-feed`:
   name:                <Hyeono> <Shin>
   email:               <iabc716@icloud.com>
