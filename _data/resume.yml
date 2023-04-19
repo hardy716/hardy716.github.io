@@ -17,9 +17,9 @@ basics:
     countryCode: "KR"
     region: "Gyeonggi-do"
   profiles:
-    - network: ""
-      username: ""
-      url: ""
+    - network: "GitHub"
+      username: "hardy716"
+      url: "https://github.com/hardy716"
     - network: "LinkedIn"
       username: "Shin Hyeonho"
       url: "https://www.linkedin.com/in/devhardy/?original_referer="
@@ -80,7 +80,7 @@ skills:
 #      - "Mpeg"
 languages:
   - language: "English"
-    fluency: "TOEIC : 860, TS : Advanced Low"
+    fluency: "TOEIC : 860 & TS : Advanced Low"
 #interests:
 #  - name: ""
 #    keywords:
