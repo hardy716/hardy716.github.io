@@ -6,9 +6,6 @@ sitemap: false
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=f0f6fc&lines=Hello%20I'm%20Hardy&font=Redressed&size=40)](https://git.io/typing-svg)
 
-Hi! This is Hardy 🎉
-
-<br>
 
 ## ✓ CONTACT
 
