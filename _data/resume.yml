@@ -80,9 +80,7 @@ skills:
 #      - "Mpeg"
 languages:
   - language: "English"
-    fluency:
-    - "TOEIC : 860"
-    - "TOEIC Speaking : Advanced Low"
+    fluency: "TOEIC : 860, TS : Advanced Low"
 #interests:
 #  - name: ""
 #    keywords:
