@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clean Agile : Back to Basis
-image:
+image: /assets/img/blog/clean-agile.jpg
 accent_image: 
   background: url('/assets/img/sidebar-bg3.jpg') center/cover
   overlay: false
@@ -18,7 +18,7 @@ invert_sidebar: true
 {:toc}
 
 
-![클린 애자일](/assets/img/blog/clean-agile.jpg)
+<!--![클린 애자일](/assets/img/blog/clean-agile.jpg)-->
 
 프로덕트 매니저, 개발자라면 한번쯤은 들어보았을 단어이다.
 
