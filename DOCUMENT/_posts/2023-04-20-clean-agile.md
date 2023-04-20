@@ -201,4 +201,4 @@ invert_sidebar: true
 
 Robert C. Martin의 저서 Clean Agile : Back to Basis 을 읽고 책 내용 중 일부분을 정리한 글입니다.
 
-읽어주셔서 감사합니다 :>
+읽어주셔서 감사합니다.
