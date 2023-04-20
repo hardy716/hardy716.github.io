@@ -13,7 +13,11 @@ permalink: /docs/
 ## BLOG
 - [ALGORITHM](https://hardy716.github.io/blog/algorithm/) --- 알고리즘에 대해 정리하고 백준과 프로그래머스, LeetCode에서 알고리즘 문제를 풀고 기록합니다.
 - [DOCUMENT](https://hardy716.github.io/blog/document/) --- 개발 관련 뉴스나 개발 서적 등을 통해 얻은 지식들을 정리해서 기록합니다.
-- [LANGUAGE](https://hardy716.github.io/blog/) --- 프로그래밍 언어별로 쌓은 지식들을 기록합니다.
+- [LANGUAGE](https://hardy716.github.io/blog/language) --- 프로그래밍 언어별로 쌓은 지식들을 기록합니다.
+    - [SWIFT]()
+    - [DART]()
+    - [JAVASCRIPT]()
+    - [PYTHON]()
 - [SQL](https://hardy716.github.io/blog/sql/) --- 프로그래머스와 LeetCode에서 SQL 문제를 풀고 기록합니다.
 - [TROUBLE SHOOTING](https://hardy716.github.io/blog/trouble-shooting/) --- 문제를 식별하고, 원인을 파악하여 적합한 해결책을 찾고 기록합니다.
 <!--* [menu]{:.heading.flip-title} --- description for menu-->
