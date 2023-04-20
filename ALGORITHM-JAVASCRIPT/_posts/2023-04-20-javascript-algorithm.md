@@ -17,13 +17,13 @@ invert_sidebar: true
 * toc
 {:toc}
 
-## [프로그래머스 코딩테스트 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
+## 📈 [프로그래머스 코딩테스트 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
 
 코딩테스트에는 어떤 알고리즘/자료구조가 출제될까요?
 사람들은 어떤 문제를 어려워할까요? 국내에서 코딩테스트를 가장 많이 운영해온 프로그래머스 팀이 코딩테스트 결과를 분석해서 만든 고득점 Kit. 코딩테스트에 자주 나오는 유형, 사람들이 많이 틀리는 유형을 간추렸습니다.
 
 
-### 해시
+### 🙂 해시
 
 #### [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
 
@@ -216,7 +216,7 @@ function solution(participant, completion) {
 // space complexity : O(n)
 ```
 
-### 탐욕법
+### 🙂 탐욕법
 
 #### [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
 
@@ -610,7 +610,7 @@ function solution(number, k) {
 // space complexity : O(n)
 ```
 
-### 정렬
+### 🙂 정렬
 
 #### [H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)
 
@@ -833,7 +833,7 @@ function solution(numbers) {
 ```
 
 
-### 스택 & 큐
+### 🙂 스택 & 큐
 
 #### [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
 
@@ -1237,7 +1237,7 @@ function solution(priorities, location) {
 ```
 
 
-### BFS & DFS
+### 🙂 BFS & DFS
 
 #### [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
 
@@ -1409,10 +1409,10 @@ function solution(numbers, target) {
 ```
 
 
-## [코딩테스트 연습](https://school.programmers.co.kr/learn/challenges?order=recent)
+## 📝 [코딩테스트 연습](https://school.programmers.co.kr/learn/challenges?order=recent)
 
 
-### LV.2
+### LV.2️⃣
 
 #### [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540)
 
