@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Clean Agile - Back to Basis
+title: Clean Agile - Back to Basics
 image: /assets/img/blog/clean-agile.jpeg
 accent_image: 
   background: url('/assets/img/sidebar-bg3.jpg') center/cover
@@ -8,11 +8,11 @@ accent_image:
 accent_color: '#ccc'
 theme_color: '#ccc'
 description: >
-  Robert C. Martin의 저서 Clean Agile : Back to Basis 을 읽고 정리한 글입니다.
+  Robert C. Martin의 저서 Clean Agile : Back to Basics 을 읽고 정리한 글입니다.
 invert_sidebar: true
 ---
 
-# Clean Agile : Back to Basis
+# Clean Agile : Back to Basics
 
 * toc
 {:toc}
@@ -199,6 +199,6 @@ invert_sidebar: true
 >- 자신만의 추정치를 만들고 갱신할 권리가 있다.
 
 
-Robert C. Martin의 저서 Clean Agile : Back to Basis 을 읽고 책 내용 중 일부분을 정리한 글입니다.
+Robert C. Martin의 저서 Clean Agile : Back to Basics 을 읽고 책 내용 중 일부분을 정리한 글입니다.
 
 읽어주셔서 감사합니다.
