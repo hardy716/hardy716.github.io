@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clean Agile : Back to Basis
-image: /assets/img/blog/clean-agile.jpg
+image: /assets/img/blog/book.jpg
 accent_image: 
   background: url('/assets/img/sidebar-bg3.jpg') center/cover
   overlay: false
