@@ -3,14 +3,14 @@
 layout: grid
 
 # The title of the tag's page.
-title: Language
+title: iOS
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: LANGUAGE
+slug: iOS
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Solve and record SQL problems in the [Programmers](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit) and [LeetCode](https://leetcode.com/problemset/all/?listId=5htp6xyg&page=1).
+  iOS
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true
