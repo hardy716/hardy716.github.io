@@ -10,7 +10,7 @@ slug: ALGORITHM
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Solve and record SQL problems in the [Programmers](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit) and [LeetCode](https://leetcode.com/problemset/all/?listId=5htp6xyg&page=1).
+  알고리즘에 대해 정리하고 백준과 프로그래머스, LeetCode에서 알고리즘 문제를 풀고 기록합니다.
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true

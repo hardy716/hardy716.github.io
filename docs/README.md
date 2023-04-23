@@ -1,7 +1,7 @@
 ---
 title: Sitemap
 description: >
-  A sitemap is a file that visually displays a website's structure, typically containing a list of all pages on the site and important information about them, which can help search engines crawl and index the site and aid users in finding and navigating content. 
+
 hide_description: true
 sitemap: false
 permalink: /docs/
@@ -13,7 +13,7 @@ permalink: /docs/
 ## BLOG
 - [ALGORITHM](https://hardy716.github.io/blog/algorithm) --- 알고리즘에 대해 정리하고 백준과 프로그래머스, LeetCode에서 알고리즘 문제를 풀고 기록합니다.
 - [DOCUMENT](https://hardy716.github.io/blog/document/) --- 개발 관련 뉴스나 개발 서적 등을 통해 얻은 지식들을 정리해서 기록합니다.
-- [iOS](https://hardy716.github.io/blog/ios) --- iOS 관련 이론과 기본 애플리케이션을 클론 코딩하고 기록합니다.
+- [iOS](https://hardy716.github.io/blog/ios) --- iOS 관련 공부 및 기본 애플리케이션을 클론 코딩하고 기록합니다.
 - [SQL](https://hardy716.github.io/blog/sql/) --- 프로그래머스와 LeetCode에서 SQL 문제를 풀고 기록합니다.
 - [TROUBLE SHOOTING](https://hardy716.github.io/blog/trouble-shooting/) --- 문제를 식별하고, 원인을 파악하여 적합한 해결책을 찾고 기록합니다.
 <!--* [menu]{:.heading.flip-title} --- description for menu-->

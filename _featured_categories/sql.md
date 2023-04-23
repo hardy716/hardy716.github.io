@@ -10,7 +10,7 @@ slug: SQL
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Solve and record SQL problems in the [Programmers](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit) and [LeetCode](https://leetcode.com/problemset/all/?listId=5htp6xyg&page=1).
+  [프로그래머스](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)와 [LeetCode](https://leetcode.com/problemset/all/?listId=5htp6xyg&page=1)에서 SQL 문제를 풀고 기록합니다.
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true

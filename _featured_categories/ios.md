@@ -10,7 +10,7 @@ slug: iOS
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  iOS
+   iOS 관련 공부 및 기본 애플리케이션을 클론 코딩하고 기록합니다.
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true

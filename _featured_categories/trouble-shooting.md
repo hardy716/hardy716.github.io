@@ -10,7 +10,7 @@ slug: TROUBLE-SHOOTING
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Troubleshooting is the process of identifying and resolving issues in a system or software.
+  문제를 식별하고, 원인을 파악하여 적합한 해결책을 찾고 기록합니다.
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true

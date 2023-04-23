@@ -10,7 +10,7 @@ slug: DOCUMENT
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Document is a written or electronic record that provides information or evidence about a subject, often used for reference, communication, or legal purposes.
+  개발 관련 뉴스나 개발 서적 등을 통해 얻은 지식들을 정리해서 기록합니다.
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true
