@@ -59,3 +59,58 @@ ON (
 GROUP BY A.student_id, B.subject_name
 ORDER BY student_id, subject_name;
 ```
+
+### [1327. List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/description/)
+```sql
+SELECT product_name, unit
+FROM (
+    SELECT
+        A.product_name,
+        SUM(B.unit) as unit
+    FROM
+        Products A
+    INNER JOIN
+        Orders B ON A.product_id = B.product_id
+    WHERE 
+        MONTH(B.order_date) = 2
+    GROUP BY product_name
+) C
+WHERE unit >= 100
+```
+
+### [1378. Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/)
+```sql
+SELECT
+    CASE WHEN A.id = B.id THEN B.unique_id
+        ELSE null
+    END as unique_id,
+    A.name
+FROM 
+    Employees A
+LEFT JOIN
+    EmployeeUNI B
+ON A.id = B.id
+```
+
+### [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/description/)
+```sql
+SELECT
+    sell_date, 
+    COUNT( DISTINCT product ) as num_sold ,
+    GROUP_CONCAT( 
+        DISTINCT product ORDER BY product ASC separator ',' 
+    ) as products
+FROM Activities 
+GROUP BY sell_date 
+ORDER BY sell_date ASC;
+```
+
+### [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/description/)
+```sql
+SELECT 
+    *
+FROM 
+    users
+WHERE 
+    mail REGEXP '^[A-Za-z]+[A-Za-z0-9\\._\\-]*@leetcode\\.com$';
+```
