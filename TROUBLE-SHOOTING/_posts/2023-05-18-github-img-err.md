@@ -1,9 +1,9 @@
 ---
 layout: post
 title: GitHub TroubleShooting - Image Link
-image: /assets/img/blog/err-3-10.png
+image: /assets/img/blog/pb1-1.png
 accent_image: 
-  background: url('/assets/img/blog/error.jpg') center/cover
+  background: url('/assets/img/blog/pb1-1.png') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'
