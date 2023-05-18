@@ -12,172 +12,71 @@ description: >
 invert_sidebar: true
 ---
 
-# 이미지를 클릭하면 특정 링크가 아니라 이미지 관련 링크로 이동된다
+# 이미지를 클릭하면 특정 링크가 아니라 이미지 관련 링크로 이동되는 문제
 
 * toc
 {:toc}
 
 
-```bash
-The plugin flutter_webview_plugin uses a deprecated version of the Android embedding.
-To avoid unexpected runtime failures, or future build failures, try to see if this plugin supports the Android V2 embedding.r
-Otherwise, consider removing it since a future release of Flutter will remove these deprecated APIs.
-```
-
 ## 상황
 
-flutter_webview_plugin 패키지를 사용해서 네이버 소셜 로그인 페이지를 웹뷰로 띄워주는 과정에서 큰 문제없이 동작은 하지만 위와 같은 에러가 발생했다.
+`image` 태그를 `a` 태그로 감싸 이미지를 클릭하면 특정 링크로 이동하려고 했으나 이미지 관련 S3 링크로 이동이 된다.
 
 
-## 에러 분석
+## 문제 분석
 
-네이버의 소셜 로그인 페이지를 웹뷰로 띄우는 과정에서 사용한 `flutter_webview_plugin` 패키지와 관련된 문제로, deprecated(사용 중단)된 Android embedding 버전을 사용하고 있다는 경고이다. 
+`a` 태그의 href 속성에 사용한 링크나 실제로 `image` 태그의 src 속성에 사용한 링크가 아니라 S3 관련으로 추정되는 링크로 이동이 되고 있다.
 
-( Android embedding에 대해 간단히 설명하자면, 플러터 프로젝트의 안드로이드 앱 통합 방식이다. )
+`image` 태그의 src 속성에 사용한 링크를 직접 주소창에 입력해도 S3 링크로 이동되는 것으로 보아 확실한 점은 `a` 태그의 href 속성에 사용한 링크가 무시되고 있는 것 같다.
 
-기존에 사용하던 Android V1 embedding 방식에서 2019년에 Flutter 1.12와 함께 Android V2 embedding 방식이 도입되었는데,
-`flutter_webview_plugin` 패키지는 V2로 마이그레이션이 되지 않아 사용이 중지된 Android V1 embedding 방식을 아직 사용하는 것 같다.
+GitHub에서 이미지를 업로드하고자 할 때, 가장 유명한 방법은 깃허브의 이슈 생성 화면의 이미지를 드래그 & 드롭해서 생성되는 링크를 사용한다.
 
-위 에러를 방치하면, 향후 빌드 실패나 런타임 오류가 발생할 위험이 있기 때문에 가능하면 해결하는 것이 좋다고 생각했다.
+![pb1-1](/assets/img/blog/pb1-1.png){: width="60%" height="60%"}
+
+![pb1-2](/assets/img/blog/pb1-1.png){: width="60%" height="60%"}
+
+
+위에서 생성되는 주소를 일반화하면 아래와 같다.
+
+https://github.com/{사용자명 또는 조직명}/{레포지토리명}/assets/{경로1}/{경로2}
 
 
 ## 해결 방법
 
-해결을 위해서는, 해당 플러그인을 V2로 직접 마이그레이션하거나 이미 마이그레이션이 완료된 다른 패키지의 사용을 고려해보아야 했고, 내가 택한 방법은 전자였다.
+해결을 위해서는, GitHub에서 위에서 언급한 방식에 대해 정확히 어떻게 동작하는지 알 필요가 있다고 생각했다.
 
-우선 `pub.dev`에 가서 내가 사용한 버전(^0.4.0)이 최신 버전이며, [flutter_webview_plugin](https://pub.dev/packages/flutter_webview_plugin)의 최신 업데이트가 22개월 전이라는 사실을 확인했다.
+### 깃허브가 생성한 이미지 링크?
 
-해당 플러그인의 [공식 깃허브 저장소 - fluttercommunity/flutter_webview_plugin](https://github.com/fluttercommunity/flutter_webview_plugin)를 살펴보니, 예상대로 많은 사람들이 deprecated version에 대해 이슈들을 생성한 것을 볼 수 있었고, 직접 문제점을 해결하려고 시도하신 분들도 간간히 보였다. 
+GitHub에서 이슈 생성 화면에서 이미지를 드래그 & 드롭하여 이미지 링크가 생성되는 과정은 아래와 같다(공식적인 정보를 찾지 못해 찾아낸 정보를 바탕으로 추정해보았다).
 
+1. 이미지 파일을 드래그하여 이슈 생성 화면의 텍스트 편집 영역으로 드롭한다.
+2. 드롭한 이미지 파일은 브라우저에서 로컬로 업로드되며 브라우저 메모리에 임시로 저장된다.
+3. GitHub는 업로드된 이미지 파일을 클라우드 스토리지 S3(Amazon Simple Storage Service)에 업로드한다.
+4. GitHub는 S3에 업로드된 이미지에 대한 링크를 자체적으로 생성한다.
 
-### 마이그레이션 방법은 아래 문서들을 주로 참고했다.
+위 과정이 맞다고 가정했을 때, 깃허브가 생성한 링크 `https://github.com/{사용자명 또는 조직명}/{레포지토리명}/assets/{경로1}/{경로2}`는 S3에 저장된 이미지 파일을 가져와서 표시하는 링크이다.
 
-[Supporting the new Android plugins APIs](https://docs.flutter.dev/release/breaking-changes/plugin-api-migration)
+### 문제 발생 원인?
 
-[Upgrading pre 1.12 Android projects](https://github.com/flutter/flutter/wiki/Upgrading-pre-1.12-Android-projects)
+이미지를 클릭하면 `a 태그`의 href 링크로 이동하는 것이 일반적이지만, 실제로는 s3 링크로 이동되고 있다. 
 
+관련 정보를 찾지 못해 확답은 어렵지만 가능성 있는 원인에 대해서 얘기해보려고 한다.
 
-### 우선 두 방식의 차이점에 대해서 알아보았다.
+문제 발생 시점에서 `image` 태그의 src에 있는 링크는 깃허브에서 자체적으로 생성한 링크이다.
 
-1. **Android V1 embedding** 방식
+깃허브에서 s3 링크를 그대로 사용하지 않고 굳이 이에 대한 접근 링크를 자체적으로 생성하는 것에 대해서는 여러 이유가 있겠지만, 이 링크에 특정한 설정이나 사용자 정의가 있어 일반적이지 않은 동작이 일어나거나 href 링크가 무시되는 것으로 보인다.
 
-- `io.flutter.app.FlutterActivity` 클래스를 사용한다.
+아래는 내가 찾아낸 정보 중 일부이다.
 
-- `android.app.Activity`를 직접 상속한다.
+> 깃허브에서 생성된 이미지 링크는 GitHub의 이미지 뷰어를 통해 이미지를 표시하는 링크입니다.
+> 링크는 GitHub의 내부 구조에 따라 생성되며, 일반적으로 GitHub 레포지토리 내의 상대 경로로 
+> 생성됩니다.
+> 이미지를 클릭하면 GitHub은 해당 이미지 파일의 URL을 요청하고, 이를 통해 S3에서 이미지 파일을
+> 가져와서 브라우저에 표시합니다. 이 과정에서 GitHub은 이미지 파일을 다운로드하는 HTTP 요청을
+> 보내고, S3는 해당 이미지 파일을 응답으로 제공합니다.
 
-- `FlutterView`를 사용하여 플러터 엔진을 호스팅하고 렌더링한다.
+### 해결 방안
 
-- `PluginRegistry`를 사용하여 플러그인을 등록하고 관리한다.
-    
-2. **Android V2 embedding** 방식
+`image` 태그의 src에 깃허브에서 자체적으로 생성한 링크 대신에 s3 링크를 찾아서 입력해주었다.
 
-- `io.flutter.embedding.android.FlutterActivity` 클래스를 사용한다.
-
-- `androidx.appcompat.app.AppCompatActivity`를 상속한다.
-
-- `FlutterEngine` 클래스를 사용하여 플러터 엔진을 관리하고 `FlutterView`를 사용하여 렌더링한다.
-
-- `FlutterEngine`을 사용하여 플러그인을 등록하고 관리하며, 각 플러그인은 `io.flutter.embedding.engine.plugins.FlutterPlugin` 인터페이스를 구현해야 한다.
-    
-
-## 마이그레이션 진행 단계
-
-### 플러그인 (공식) 레포지토리 포크 및 클론
-
-[레포지토리 포크 - hardy716/flutter_webview_plugin](https://github.com/hardy716/flutter_webview_plugin)
-
-```bash
-git clone https://github.com/hardy716/flutter_webview_plugin.git
-```
-
-### 안드로이드 프로젝트 설정 업데이트 ( `android/build.gradle` )
-
-1. 안드로이드 V2 임베딩은 최소 API 레벨 16(Android 4.1, Jelly Bean) 이상에서 작동하므로 minSdkVersion(최소 지원 SDK 버전)을 16으로 설정했다.
-
-2. 컴파일 SDK 버전 및 대상 SDK 버전은 마이그레이션에 직접적인 영향을 주지는 않지만 최신 안드로이드 플랫폼과의 호환성 및 최신 API와 보안패치의 적용을 위해 30 이상으로 설정했다.
-
-![err-3-1](/assets/img/blog/err-3-1.png){: width="60%" height="60%"}
-
-
-### AndroidX 마이그레이션
-
-- 프로젝트가 AndroidX 라이브러리를 사용하도록 설정했다.
-
-`android.useAndroidX=true`
-
-- jetifier를 활성화해서 Android Support Library를 사용하는 의존성을 자동으로 AndroidX로 변환한다.
-
-`android.enableJetifier=true`
-
-![err-3-2](/assets/img/blog/err-3-2.png){: width="60%" height="60%"}
-
-
-### 플러그인 등록 코드 수정
-
-![err-3-3](/assets/img/blog/err-3-3.png){: width="60%" height="60%"}
-
-Android V1 embedding 방식이 사용하는 `io.flutter.app.FlutterActivity` 클래스를 검색해보니 `MainActivity.java`에서 사용 중인 것으로 확인된다.
-
-해당 파일의 코드를 Android V2 embedding 방식의 코드로 교체한다.
-
-![err-3-4](/assets/img/blog/err-3-4.png){: width="60%" height="60%"}
-
-
-### 플러그인 코드 수정
-
-- `io.flutter.plugin.common.MethodChannel` 클래스를 사용하는 코드를 찾아 필요하다면, Android V2 embedding 방식으로 업데이트를 진행했다.
-
-![err-3-5](/assets/img/blog/err-3-5.png){: width="60%" height="60%"}
-
-- `io.flutter.plugin.common.EventChannel` 클래스를 사용하는 코드를 찾아 필요하다면, Android V2 embedding 방식으로 업데이트를 진행했다. 
-
-![err-3-6](/assets/img/blog/err-3-6.png){: width="60%" height="60%"}
-
-- `io.flutter.plugin.common.PluginRegistry` 클래스를 사용하는 코드를 찾아 Android V2 embedding 방식으로 업데이트를 진행했다. 
-
-![err-3-7](/assets/img/blog/err-3-7.png){: width="60%" height="60%"}
-
-
-(참고) 일반적으로 MethodChannel과 EventChannel 클래스가 사용된 코드는 V2 embedding 방식에서도 동일하게 사용하지만, 필요하다면 플러그인의 초기화 및 액티비티 관련 코드를 수정해야 하기 때문에, 1, 2번도 진행했다.
-
-
-### 기존 플러그인 대신 적용(테스트)
-
-기존 플러그인을 사용하던 프로젝트에서 테스트를 해보았다.
-
-먼저 마이그레이션한 플러그인의 경로와 기존 플러그인을 사용하던 프로젝트의 경로를 확인한다.
-
-```bash
-cd flutter_webview_plugin
-pwd
-```
-**/Users/hyeono/desktop/flutter_webview_plugin**
-
-```bash
-cd makeat_fe
-pwd
-```
-**/Users/hyeono/desktop/Frontend/makeat_fe**
-
-
-앱 프로젝트의 pubspec.yaml 파일에서 아래와 같이 마이그레이션한 플러그인을 참조했다. path에는 위에서 확인한 플러그인 디렉토리의 절대 경로와 앱 프로젝트 디렉토리의 절대 경로를 비교해서 상대 경로를 입력했다.
-
-![err-3-8](/assets/img/blog/err-3-8.png){: width="60%" height="60%"}
-
-
-### 실행 결과
-
-기존 플러그인의 경우 디버깅을 시작하면 아래와 같이 콘솔에 경고 문구가 찍힌다.
-
-![err-3-9](/assets/img/blog/err-3-9.png)
-
-V2로 마이그레이션한 플러그인을 적용한 모습이다. 경고문구가 사라진 것을 확인할 수 있다.
-
-![err-3-10](/assets/img/blog/err-3-10.png)
-
-
-### 변경 사항 반영 
-
-V2로 마이그레이션한 플러그인의 변경사항을 반영하기 위해 플러그인 공식 레포지토리에 [풀리퀘스트](https://github.com/fluttercommunity/flutter_webview_plugin/pull/962#issue-1667425531)를 진행했다.
-
-deprecated version 및 migration 관련 최근 이슈에도 내가 [마이그레이션한 플러그인을 소개](https://github.com/fluttercommunity/flutter_webview_plugin/issues/960)해서 PR이 병합되기 전에도 다른 분들이 쓸 수 있도록 조치했다.
+이미지를 클릭하면 `a` 태그의 href 링크로 넘어가는 것을 확인할 수 있다.
