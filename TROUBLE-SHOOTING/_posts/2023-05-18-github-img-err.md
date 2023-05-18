@@ -1,9 +1,9 @@
 ---
 layout: post
 title: GitHub TroubleShooting - Image Link
-image: /assets/img/blog/pb1-1.png
+image: /assets/img/blog/pb1-2.png
 accent_image: 
-  background: url('/assets/img/blog/pb1-1.png') center/cover
+  background: url('/assets/img/blog/pb1-2.png') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'
@@ -33,7 +33,7 @@ GitHub에서 이미지를 업로드하고자 할 때, 가장 유명한 방법은
 
 ![pb1-1](/assets/img/blog/pb1-1.png){: width="60%" height="60%"}
 
-![pb1-2](/assets/img/blog/pb1-1.png){: width="60%" height="60%"}
+![pb1-2](/assets/img/blog/pb1-2.png){: width="60%" height="60%"}
 
 
 위에서 생성되는 주소를 일반화하면 아래와 같다.
