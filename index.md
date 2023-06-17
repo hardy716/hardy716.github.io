@@ -41,6 +41,8 @@ sitemap: false
 
 ## ✓ CAREER
 
+- 2023.02 ~ 2023.05 :  한국산업기술진흥협회(KOITA) 전산직
+
 - 2022.07 ~ 2023.01 :  K-Software Bootcamp 1기
    
 - 2022.09 ~ 2022.11 :  앨런: Swift 마스터 스쿨 14기
