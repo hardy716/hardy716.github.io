@@ -15,13 +15,17 @@ invert_sidebar: true
 # A Survey of Augmented Reality
 
 
-AR에 관심이 있거나 이 분야에 종사하는 사람이라면 한번쯤은 보았을 조사 논문 이다.
+AR에 관심이 있거나 이 분야에 종사하는 사람이라면 한번쯤은 보았을 조사 논문입니다.
 
-1997년에 발표된 논문이지만, Ronald T. Azuma가 구체화한 증강현실(AR)의 개념은 아직까지도 널리 사용되고 있다.
+1997년에 발표된 논문이지만, Ronald T. Azuma가 구체화한 증강현실(AR)의 개념은 아직까지도 널리 사용되고 있습니다.
 
-[A Survey of Augmented Reality](https://www.cs.unc.edu/~azuma/ARpresence.pdf) 를 읽고 AR에 대한 기본적인 지식을 습득하고자 했다.
+[A Survey of Augmented Reality](https://www.cs.unc.edu/~azuma/ARpresence.pdf) 를 읽고 AR에 대한 기본적인 지식을 습득하고자 했습니다.
 
 아래는 논문의 일부를 인용한 글이다.
+
+
+* toc
+{:toc}
 
 
 ### 💡 AR이란? - 1
@@ -40,20 +44,17 @@ AR은 VE(완전한 합성)와 telepresence(완전한 실제) 사이의 "중간 �
 
 ### 💡 AR의 정의 (3요소)
 
-> <aside>
-💡 To avoid limiting AR to specific technologies, this survey defines AR as systems that have the following three characteristics:
-
-1) Combines real and virtual 
-
-2) Interactive in real time
-
-3) Registered in 3-D
-</aside>
+> 💡 To avoid limiting AR to specific technologies, this survey defines AR as systems that have the following three characteristics:
+> 1) Combines real and virtual 
+> 2) Interactive in real time
+> 3) Registered in 3-D
 
 AR을 특정 기술로 제한하지 않기 위해 이 설문 조사에서는 AR을 다음과 같은 세 가지 특성을 가진 시스템으로 정의합니다:
 
-1) 실제와 가상을 결합 
+1) 실제와 가상을 결합
+
 2) 실시간으로 상호 작용(대화형 미디어)
+
 3) 3-D로 등록됨
 
 
