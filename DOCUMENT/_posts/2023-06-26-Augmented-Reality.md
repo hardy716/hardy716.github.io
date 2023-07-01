@@ -69,7 +69,7 @@ invert_sidebar: true
 
 최근 애플이 [WWDC2023에서 발표한 Apple Vision Pro](https://www.apple.com/kr/newsroom/2023/06/introducing-apple-vision-pro/)의 기능 중 하나가 생각이 났다.
 
-![ar1-1](/assets/img/blog/doc/vision-OS.jpg){: width="80%" height="60%"}
+![ar1-2](/assets/img/blog/doc/vision-OS.png){: width="80%" height="60%"}
 
 애플 visionOS 내부 구성을 살펴보면 Forveated Renderer가 보이는데, 간단하게 말하자면 사용자의 시선을 추적해서 사용자가 응시하고 있는 부분(Fovea: 중심시)은 고화질로, 그 외 부분(Parafovea: 주변시)은 저화질로 처리하는 기술이다. [visualcamp의 게시글](https://visual.camp/ko/05-vr시선추적기술-foveated-rendering/)에 따르면, 이러한 포비티드 랜더링 기술은 그래픽의 성능을 높여주고 눈의 피로도를 줄여줄 수 있다고 한다.
 
