@@ -24,7 +24,7 @@ invert_sidebar: true
 
 ### 🔢 수학
 
-#### [A+B](https://www.acmicpc.net/problem/1000)
+#### [1000 / A+B](https://www.acmicpc.net/problem/1000)
 
 ```swift
 if let input = readLine() {
@@ -44,12 +44,10 @@ if let 바인딩(강제 언래핑(!)에 비해 안전한 방식)을 사용해서
 
 `reduce`는 배열의 모든 요소를 합하는 기능을 제공한다.
 
-위 문제와 유사한 문제 : [1001](https://www.acmicpc.net/problem/1001), [10998](https://www.acmicpc.net/problem/10998), [1008](https://www.acmicpc.net/problem/1008)
-
 ![1000](/assets/img/blog/algorithm/1000.png){: width="100%" height="100%"}
 
 
-#### [구구단](https://www.acmicpc.net/problem/2739)
+#### [2739 / 구구단](https://www.acmicpc.net/problem/2739)
 
 ```
 if let input = readLine(), let n = Int(input) {
@@ -64,7 +62,7 @@ if let input = readLine(), let n = Int(input) {
 ![1000](/assets/img/blog/algorithm/2739.png){: width="100%" height="100%"}
 
 
-#### [윤년](https://www.acmicpc.net/problem/2753)
+#### [2753 / 윤년](https://www.acmicpc.net/problem/2753)
 
 ```
 if let input = readLine(), let num = Int(input) {
