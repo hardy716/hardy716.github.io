@@ -191,3 +191,61 @@ if let N = Int(readLine()!) {
 다른 분들 풀이를 보면 종종 튜플 할당 `let (x1, y1, r1, x2, y2, r2) = (values[0], values[1], values[2], values[3], values[4], values[5])`을 사용하는 것을 볼 수 있는데, 확인해보면 위 코드처럼 개별적인 상수 할당이 더 빠르게 동작(12ms -> 8ms)하는 것을 볼 수 있다. 튜플 할당은 각 변수에 접근할 때마다 튜플에서 해당 요소를 추출해야 하기 때문에 추가적인 연산과 메모리 접근을 필요로 하는 것에 반해, 개별적인 상수 할당은 배열 요소에 직접 접근하는 방식이다.
 
 ![1002](/assets/img/blog/algorithm/1002.png){: width="100%" height="100%"}
+
+
+
+
+### 🪜 구현
+
+#### [1966 - 프린터 큐](https://www.acmicpc.net/problem/1966)
+
+```swift
+struct Document {
+    let priority: Int
+    let isTarget: Bool
+}
+
+func findPrintOrder(documents: [Document]) -> Int {
+    var printQueue = documents
+    var printOrder = 0
+    
+    while !printQueue.isEmpty {
+        let highestPriority = printQueue.max(by: { $0.priority < $1.priority })!.priority
+        let front = printQueue.removeFirst()
+        
+        if front.priority < highestPriority {
+            printQueue.append(front)
+        } else {
+            printOrder += 1
+            if front.isTarget {
+                return printOrder
+            }
+        }
+    }
+    
+    return printOrder
+}
+
+let T = Int(readLine()!)!
+
+for _ in 0..<T {
+    let input = readLine()!.split(separator: " ").map { Int($0)! }
+    let targetIndex = input[1]
+    let priorities = readLine()!.split(separator: " ").map { Int($0)! }
+    
+    var documents = [Document]()
+    for (index, priority) in priorities.enumerated() {
+        let isTarget = (index == targetIndex)
+        documents.append(Document(priority: priority, isTarget: isTarget))
+    }
+    
+    let printOrder = findPrintOrder(documents: documents)
+    print(printOrder)
+}
+```
+
+`max()` 함수의 `by`는 (비교 연산을 정의하는) 클로저를 받는 매개변수이다. 위에서 클로저 내의 `$0`과 `$1`은 클로저에서 첫 번째와 두 번째 매개변수를 나타낸다.
+
+스위프트에서 `enumerated()` 함수는 컬렉션의 각 요소에 대해 인덱스와 값을 함께 제공하는 반복자를 생성하는 데 사용된다.  
+
+![1996](/assets/img/blog/algorithm/1966.png){: width="100%" height="100%"}
