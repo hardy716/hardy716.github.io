@@ -249,3 +249,32 @@ for _ in 0..<T {
 스위프트에서 `enumerated()` 함수는 컬렉션의 각 요소에 대해 인덱스와 값을 함께 제공하는 반복자를 생성하는 데 사용된다.  
 
 ![1996](/assets/img/blog/algorithm/1966.png){: width="100%" height="100%"}
+
+
+#### [11866 - 요세푸스 문제 0](https://www.acmicpc.net/problem/11866)
+
+```swift
+func josephus(_ n: Int, _ k: Int) {
+    var cirBuffer = Array(1...n)
+    var permutation: [String] = []
+    var idx = 0
+    
+    while !cirBuffer.isEmpty {
+        idx = (idx + k - 1) % cirBuffer.count
+        let removedElement = cirBuffer.remove(at: idx)
+        permutation.append(String(removedElement))
+    }
+    
+    print("<" + permutation.joined(separator: ", ") + ">")
+}
+
+let input = readLine()!.split(separator: " ").map { Int($0)! }
+let n = input[0], k = input[1]
+josephus(n, k)
+```
+
+조세푸스 순열(Josephus Permutation)은 주어진 인원에서 일정한 간격으로 요소를 제거하는 과정을 반복하여 마지막에 남는 요소들로 이루어진 순열을 말한다.
+
+![11866](/assets/img/blog/algorithm/11866.png){: width="100%" height="100%"}
+
+
