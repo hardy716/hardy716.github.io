@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Clean Agile - Back to Basics
-image: /assets/img/blog/doc/a-survey-of-augmented-reality.png
+title: A Survey of Augmented Reality
+image: /assets/img/blog/doc/survey-ar/a-survey-of-augmented-reality.png
 accent_image: 
   background: url('/assets/img/sidebar/reference-room.jpg') center/cover
   overlay: false

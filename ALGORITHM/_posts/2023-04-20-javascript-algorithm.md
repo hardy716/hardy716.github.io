@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Javascript - Algorithm
-image: /assets/img/blog/javascript.png
+image: /assets/img/blog/algorithm/js/javascript.png
 accent_image: 
   background: url('/assets/img/sidebar/bricks.jpg') center/cover
   overlay: false

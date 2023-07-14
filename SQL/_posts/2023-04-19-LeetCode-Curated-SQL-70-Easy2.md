@@ -1,9 +1,9 @@
 ---
 layout: post
 title: LeetCode Curated SQL 70 - Easy #2
-image: /assets/img/blog/leetcode.jpeg
+image: /assets/img/blog/sql/leetcode.jpeg
 accent_image: 
-  background: url('/assets/img/sidebar/bricks.jpg') center/cover
+  background: url('/assets/img/sidebar/question.jpg') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'

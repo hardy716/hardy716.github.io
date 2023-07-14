@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clean Agile - Back to Basics
-image: /assets/img/blog/clean-agile.jpeg
+image: /assets/img/blog/doc/clean-agile/book.jpeg
 accent_image: 
   background: url('/assets/img/sidebar/reference-room.jpg') center/cover
   overlay: false
@@ -44,11 +44,11 @@ invert_sidebar: true
 
 '폭포수 개발'은 1970년에 Winston Royce가 쓴 대규모 소프트웨어를 관리하는 방법에 대한 그의 아이디어를 설명하는 논문의 한 그림으로부터 시작되었다.
 
-![로이스의 그림](/assets/img/blog/agile-waterfall.png)
+![로이스의 그림](/assets/img/blog/doc/clean-agile/agile-waterfall.png)
 
 그러나 사실은 로이스가 위 그림을 처음으로 그려낸 것도 아니고, 심지어는 더 좋은 방법을 제시하기 위해 비교 대상으로 내세운 그림이었다고 한다(Robert C.Martin에 따르면, 논문을 대충 읽거나 그림책처럼 대하는 사람들에 의해 폭포수 개발이 생겨났다고 한다).
 
-![폭포수 개발](/assets/img/blog/agile-waterfall2.png)
+![폭포수 개발](/assets/img/blog/doc/clean-agile/agile-waterfall2.png)
 
 이러한 폭포수 모델은 과학적 관리법의 이론적인 후예로, 철저한 분석과 상세한 계획을 세우고 실행하여 완성하는, 단순하지만 명확한 방법이다.
 
@@ -149,7 +149,7 @@ invert_sidebar: true
 >>    품질을 떨어뜨리는 것은 옳지 못한 선택이다. 
 >>    쓰레기를 만든다고 더 빨리 갈 수는 없다는 것을 유념해야 한다.
 
-![브룩스 법칙](/assets/img/blog/brooks-law.png)
+![브룩스 법칙](/assets/img/blog/doc/clean-agile/brooks-law.png)
 
 
 ## 👥 관리자, 사용자, 고객의 입장

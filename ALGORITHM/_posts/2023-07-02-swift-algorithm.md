@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swift - Algorithm
-image: /assets/img/blog/swift.png
+image: /assets/img/blog/algorithm/swift/swift.png
 accent_image: 
   background: url('/assets/img/sidebar/bricks.jpg') center/cover
   overlay: false
@@ -44,7 +44,7 @@ if let 바인딩(강제 언래핑(!)에 비해 안전한 방식)을 사용해서
 
 `reduce`는 배열의 모든 요소를 합하는 기능을 제공한다.
 
-![1000](/assets/img/blog/algorithm/1000.png){: width="100%" height="100%"}
+![1000](/assets/img/blog/algorithm/swift/1000.png){: width="100%" height="100%"}
 
 
 #### [2739 - 구구단](https://www.acmicpc.net/problem/2739)
@@ -59,7 +59,7 @@ if let input = readLine(), let n = Int(input) {
 
 `1...9` 범위를 사용하여 1부터 9까지의 숫자를 나타내는 배열을 생성했다. `forEach` 메서드를 사용하여 배열의 각 요소에 대해 클로저를 반복적으로 실행했다. 추후에 스위프트의 클로저와 자바스크립트의 클로저를 비교해서 정리할 때, 더 자세히 다뤄볼 예정이다.
 
-![2739](/assets/img/blog/algorithm/2739.png){: width="100%" height="100%"}
+![2739](/assets/img/blog/algorithm/swift/2739.png){: width="100%" height="100%"}
 
 
 #### [2753 - 윤년](https://www.acmicpc.net/problem/2753)
@@ -78,7 +78,7 @@ if let input = readLine(), let num = Int(input) {
 조건 1 `(num % 400 == 0)` : 400의 배수일 때
 조건 2 `(num % 4 == 0 && num % 100 != 0)` : 4의 배수이면서 100의 배수가 아닐 때
 
-![2753](/assets/img/blog/algorithm/2753.png){: width="100%" height="100%"}
+![2753](/assets/img/blog/algorithm/swift/2753.png){: width="100%" height="100%"}
 
 
 #### [25304 - 영수증](https://www.acmicpc.net/problem/25304)
@@ -106,7 +106,7 @@ price == x ? print("Yes") : print("No")
 
 `guard let` 구문에서 여러 개의 옵셔널 바인딩을 동시에 수행하거나 여러 개의 조건을 동시에 확인하기 위해 콤마를 사용할 수 있다.
 
-![25304](/assets/img/blog/algorithm/25304.png){: width="100%" height="100%"}
+![25304](/assets/img/blog/algorithm/swift/25304.png){: width="100%" height="100%"}
 
 
 #### [10039 - 평균 점수](https://www.acmicpc.net/problem/10039)
@@ -130,7 +130,7 @@ print(average)
 
 복합 할당 연산자 `+=`를 통해 변수 sum을 갱신시켰다. 참고로 스위프트에서는 `++`을 지원하지 않기 때문에 `+=1`을 사용해야 한다.
 
-![10039](/assets/img/blog/algorithm/10039.png){: width="100%" height="100%"}
+![10039](/assets/img/blog/algorithm/swift/10039.png){: width="100%" height="100%"}
 
 
 #### [2839 - 설탕 배달](https://www.acmicpc.net/problem/2839)
@@ -152,7 +152,7 @@ if let input = readLine(), let N = Int(input) {
 
 `stride` 함수는 일정한 간격으로 반복하고자 할 때, 일반적인 `for` 구문보다 더 간결하고 더 가독성이 좋은 코드를 작성할 수 있도록 도와준다. 또한 `stride` 함수는 반복 범위 내에서 실제로 필요한 값만 생성하므로 메모리와 연산 비용을 절약할 수 있다.
 
-![2839](/assets/img/blog/algorithm/2839.png){: width="100%" height="100%"}
+![2839](/assets/img/blog/algorithm/swift/2839.png){: width="100%" height="100%"}
 
 
 #### [1002 - 터렛](https://www.acmicpc.net/problem/1002)
@@ -190,7 +190,7 @@ if let N = Int(readLine()!) {
 
 다른 분들 풀이를 보면 종종 튜플 할당 `let (x1, y1, r1, x2, y2, r2) = (values[0], values[1], values[2], values[3], values[4], values[5])`을 사용하는 것을 볼 수 있는데, 확인해보면 위 코드처럼 개별적인 상수 할당이 더 빠르게 동작(12ms -> 8ms)하는 것을 볼 수 있다. 튜플 할당은 각 변수에 접근할 때마다 튜플에서 해당 요소를 추출해야 하기 때문에 추가적인 연산과 메모리 접근을 필요로 하는 것에 반해, 개별적인 상수 할당은 배열 요소에 직접 접근하는 방식이다.
 
-![1002](/assets/img/blog/algorithm/1002.png){: width="100%" height="100%"}
+![1002](/assets/img/blog/algorithm/swift/1002.png){: width="100%" height="100%"}
 
 
 
@@ -248,7 +248,7 @@ for _ in 0..<T {
 
 스위프트에서 `enumerated()` 함수는 컬렉션의 각 요소에 대해 인덱스와 값을 함께 제공하는 반복자를 생성하는 데 사용된다.  
 
-![1996](/assets/img/blog/algorithm/1966.png){: width="100%" height="100%"}
+![1996](/assets/img/blog/algorithm/swift/1966.png){: width="100%" height="100%"}
 
 
 #### [11866 - 요세푸스 문제 0](https://www.acmicpc.net/problem/11866)
@@ -275,6 +275,6 @@ josephus(n, k)
 
 조세푸스 순열(Josephus Permutation)은 주어진 인원에서 일정한 간격으로 요소를 제거하는 과정을 반복하여 마지막에 남는 요소들로 이루어진 순열을 말한다.
 
-![11866](/assets/img/blog/algorithm/11866.png){: width="100%" height="100%"}
+![11866](/assets/img/blog/algorithm/swift/11866.png){: width="100%" height="100%"}
 
 

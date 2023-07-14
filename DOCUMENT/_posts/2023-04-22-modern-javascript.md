@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modern Javascript Deep Dive
-image: /assets/img/blog/modern-js.png
+image: /assets/img/blog/doc/modern-javascript/modern-js.png
 accent_image: 
   background: url('/assets/img/sidebar/reference-room.jpg') center/cover
   overlay: false

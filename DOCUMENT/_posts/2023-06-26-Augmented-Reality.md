@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clean Agile - Back to Basics
-image: /assets/img/blog/doc/augmented-reality.png
+image: /assets/img/blog/doc/ar/augmented-reality.png
 accent_image: 
   background: url('/assets/img/sidebar/reference-room.jpg') center/cover
   overlay: false
@@ -47,7 +47,7 @@ invert_sidebar: true
 
 [정동훈 교수님의 블로그 글](https://www.donghunc.kr/single-post/2017/03/03/가상현실-증강현실-그리고-혼합현실의-이해)에 따르면, 현실과 가상현실 사이에는 가상성의 정도에 따라 현실과 더 가까울 수도 가상현실과 더 가까울 수도 있는데, 이러한 구분을 위해서 제시한 것이 '가상성의 연속성(virtuality continuum)'이라고 한다. 가상성이라는 개념은 어느 단계를 구체적으로 단절시킬 수 있는 것이 아니라, 현실에 더해서 가상의 대상물(object)이 얼마나 많이 더해지는가에 따라 가상현실에 가까워진다는 연속체적인 속성을 띈다는 주장을 한 것이다.
 
-![ar1-1](/assets/img/blog/doc/Reality-Virtuality-Continuum.jpg){: width="80%" height="60%"}
+![ar1-1](/assets/img/blog/doc/ar/Reality-Virtuality-Continuum.jpg){: width="80%" height="60%"}
 
 밀그램과 키시노가 정의한 증강 현실과 아즈마가 정의한 증강 현실에는 차이가 있다는 점을 주의해야 한다. 쉽게 얘기하면, 밀그램과 키시노의 증강 현실은 현실과 가상 현실 사이에 존재하지만 현실에 좀 더 치우쳐 있고 아즈마의 증강 현실은 현실과 가상 현실 사이 그 어딘가에 존재하기만 하면 된다고 생각하면 된다. 그 외의 차이점들에 대해서는, 추후에 추가로 정리할 예정이다.
 
@@ -69,7 +69,7 @@ invert_sidebar: true
 
 최근 애플이 [WWDC2023에서 발표한 Apple Vision Pro](https://www.apple.com/kr/newsroom/2023/06/introducing-apple-vision-pro/)의 기능 중 하나가 생각이 났다.
 
-![ar1-2](/assets/img/blog/doc/vision-OS.png){: width="80%" height="60%"}
+![ar1-2](/assets/img/blog/doc/ar/vision-OS.png){: width="80%" height="60%"}
 
 애플 visionOS 내부 구성을 살펴보면 Forveated Renderer가 보이는데, 간단하게 말하자면 사용자의 시선을 추적해서 사용자가 응시하고 있는 부분(Fovea: 중심시)은 고화질로, 그 외 부분(Parafovea: 주변시)은 저화질로 처리하는 기술이다. [visualcamp의 게시글](https://visual.camp/ko/05-vr시선추적기술-foveated-rendering/)에 따르면, 이러한 포비티드 랜더링 기술은 그래픽의 성능을 높여주고 눈의 피로도를 줄여줄 수 있다고 한다.
 

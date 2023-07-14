@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Programmers SQL High Score Kit - SUM, MAX, MIN
-image: /assets/img/blog/programmers.jpg
+image: /assets/img/blog/sql/programmers.jpg
 accent_image: 
-  background: url('/assets/img/sidebar/bricks.jpg') center/cover
+  background: url('/assets/img/sidebar/question.jpg') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'
