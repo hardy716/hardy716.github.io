@@ -7,7 +7,7 @@ basics:
   picture: "https://via.placeholder.com/240x240"
   email: "iabc716@icloud.com"
   phone: ""
-  website: ""
+  website: "https://hardy716.github.io"
   summary: >
     Hardy, student in ROK.
   location:
@@ -44,13 +44,25 @@ work:
 #    highlights:
 #      - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "Inha University"
-    area: "Mechanical Engineering"
-    studyType: "Bachelor"
-    startDate: "2017-03-01"
+#  - institution: "Inha University"
+#    area: "Mechanical Engineering"
+#    studyType: "Bachelor"
+#    startDate: "2017-03-01"
 #    endDate: ""
 #    gpa: "0.0"
 #    courses: ""
+  - institution: "Allen Swift Grammar Master School"
+    studyType: "Online-Bootcamp"
+    startDate: "2023-05"
+    endDate: "2023-07"
+  - institution: "K-Software Bootcamp"
+    studyType: "Offine-Bootcamp"
+    startDate: "2022-07"
+    endDate: "2023-01"
+  - institution: "Python 4 Everybody 2022"
+    studyType: "Ontact-Study"
+    startDate: "2022-07"
+    endDate: "2022-08"
 #awards:
 #  - title: ""
 #    date: ""
