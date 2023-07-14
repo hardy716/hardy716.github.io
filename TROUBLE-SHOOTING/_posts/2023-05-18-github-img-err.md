@@ -3,7 +3,7 @@ layout: post
 title: GitHub TroubleShooting - Image Link
 image: /assets/img/blog/pb1-2.png
 accent_image: 
-  background: url('/assets/img/blog/pb1-2.png') center/cover
+  background: url('/assets/img/blog/sidebar/puzzle.jpg') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'

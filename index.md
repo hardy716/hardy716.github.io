@@ -14,22 +14,21 @@ sitemap: false
 
 <!--   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/devhardy) -->
 
-<br>
-
-## ✓ SKILL
-<!-- 
-- Currently interested in...
-  
-  ![Swift](https://img.shields.io/badge/Swift-F05138.svg?&style=for-the-badge&logo=Swift&logoColor=white)
-  ![Apple](https://img.shields.io/badge/ARKit6-000000.svg?&style=for-the-badge&logo=Apple&logoColor=white)
-  ![Sketch](https://img.shields.io/badge/Sketch-F7B500.svg?&style=for-the-badge&logo=Sketch&logoColor=white) -->
-  
-  
-- Top 3 skills
-
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white)
-  ![Python](https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)
-  ![Flutter](https://img.shields.io/badge/Flutter-02569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white)
+<!--<br>-->
+<!---->
+<!--## ✓ SKILL-->
+<!---->
+<!--- Currently interested in...-->
+<!--  -->
+<!--  ![Swift](https://img.shields.io/badge/Swift-F05138.svg?&style=for-the-badge&logo=Swift&logoColor=white)-->
+<!---->
+<!--  -->
+<!--  -->
+<!--- Top 3 skills-->
+<!---->
+<!--  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white)-->
+<!--  ![Python](https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)-->
+<!--  ![Flutter](https://img.shields.io/badge/Flutter-02569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white)-->
   
   
 <!--   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?&style=for-the-badge&logo=TypeScript&logoColor=white)
@@ -43,25 +42,26 @@ sitemap: false
 
 - 2023.02 ~ 2023.05 :  한국산업기술진흥협회(KOITA) 전산직
 
-- 2022.07 ~ 2023.01 :  K-Software Bootcamp 1기
-   
-- 2022.09 ~ 2022.11 :  앨런: Swift 마스터 스쿨 14기
+- 2022.09 ~ 2022.11 :  웹사이트 외주(EBA 센터) - FE
 
-- 2022.07 ~ 2022.08 :  부스트코스 코칭스터디 - 리드 부스터로 활동
-   
-<br>
 
-## ✓ PROJECT
-
-- 2022.09 ~ 2022.11 :  (외주/팀)교육빅데이터응용연구센터 홈페이지 제작 및 배포
-
-- 2022.09 ~ 2022.11 :  (프로젝트/팀)2022 국회 데이터 활용 경진대회
+<!--<br>-->
+<!---->
+<!--## ✓ PROJECT-->
+<!---->
+<!--- 2022.09 ~ 2022.11 :  (외주/팀)교육빅데이터응용연구센터 홈페이지 제작 및 배포-->
+<!---->
+<!--- 2022.09 ~ 2022.11 :  (프로젝트/팀)2022 국회 데이터 활용 경진대회-->
 
 <br>
 
 ## ✓ EDUCATION
 
-- 2017.03 ~ 현재 :  Inha Univ. Mechanical Engineering
+- 2023.06 ~ 2023.07 : 앨런 Swift 문법 마스터 스쿨
+
+- 2022.07 ~ 2023.01 :  K-Software Bootcamp 1기
+
+- 2022.07 ~ 2022.08 :  부스트코스 코칭스터디 - 리드 부스터로 활동
 
 <br>
 

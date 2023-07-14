@@ -3,7 +3,7 @@ layout: post
 title: Clean Agile - Back to Basics
 image: /assets/img/blog/doc/augmented-reality.png
 accent_image: 
-  background: url('/assets/img/sidebar-bg3.jpg') center/cover
+  background: url('/assets/img/sidebar/reference-room.jpg') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'

@@ -3,7 +3,7 @@ layout: post
 title: Javascript - Algorithm
 image: /assets/img/blog/javascript.png
 accent_image: 
-  background: url('/assets/img/sidebar-bg3.jpg') center/cover
+  background: url('/assets/img/sidebar/bricks.jpg') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'
