@@ -125,7 +125,7 @@ resume:
   phone:               Phone
   website:             Website
   work:                Experience
-  work_title:          <!--position--> - <!--company-->
+  work_title:          <!--position--> at <!--company-->
   highlights:          Highlights
   volunteer:           Volunteer
   volunteer_title:     <!--position--> at <!--organization-->

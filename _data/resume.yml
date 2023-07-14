@@ -37,8 +37,8 @@ work:
   - company: "(Outsourcing)"
     position: "FE"
     website: "https://www.ebacenter.org"
-    startDate: "2023-09-21"
-    endDate: "2023-11-20"
+    startDate: "2022-09-21"
+    endDate: "2022-11-20"
     summary: >
       Successfully completed outsourced web development tasks using NEXT.js for development, implementing CRUD functionality and admin features with Firestore, and creating visually appealing page UI/UX designs using CSS and TailwindCSS.
     highlights:
