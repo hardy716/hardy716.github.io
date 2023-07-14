@@ -28,12 +28,22 @@ work:
     position: "IT staff"
     website: "https://www.koita.or.kr/main/main.aspx"
     startDate: "2023-02-27"
-    endDate: ""
+    endDate: "2023-05-26"
     summary: >
       Mainly responsible for home page and in-house system modification and maintenance, and data extraction was carried out by creating queries if necessary
     highlights:
-      - "Create 200-300 line query statements for labs and dedicated departments."
-      - "Fix the bug or change the code as requested to fix the homepage with ASP.NET."
+      - "Create 200-300 line query statements for labs and dedicated departments"
+      - "Fix the bug or change the code as requested to fix the homepage with ASP.NET"
+  - company: "(Outsourcing)"
+    position: "FE"
+    website: "https://www.ebacenter.org"
+    startDate: "2023-09-21"
+    endDate: "2023-11-20"
+    summary: >
+      Successfully completed outsourced web development tasks using NEXT.js for development, implementing CRUD functionality and admin features with Firestore, and creating visually appealing page UI/UX designs using CSS and TailwindCSS.
+    highlights:
+      - "Various page UI/UX designs"
+      - "Implementation of CRUD functionality and admin features using Firestore"
 #volunteer:
 #  - organization: "CoderDojo"
 #    position: "Teacher"
