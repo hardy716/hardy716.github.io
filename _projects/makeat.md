@@ -23,6 +23,7 @@ sitemap: false
 {:toc}
 
 ## 👋🏻  MAK-E-AT을 소개합니다!
+`Flutter`, `Flask(yolov5s)`, `Firebase-Authentication, Firestore, Storage, Cloud Functions`
 <br>
 
 ### 🍴  “MAK-E-AT” 프로젝트는... 
