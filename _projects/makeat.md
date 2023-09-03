@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'MAK-E-AT'
-caption: 인공지능 모델 yolov5s을 활용한 식단 관리 및 영양 분석 서비스를 제공하는 모바일 헬스케어 애플리케이션입니다.
+caption: 음식 인식 기술을 활용한 식단 관리 및 영양 분석 서비스를 제공하는 모바일 헬스케어 애플리케이션입니다.
 description: >
   `Flutter`, `Flask(yolov5s)`, `Firebase - Authentication, Firestore, Storage, Cloud Functions`
 date: '2023-08-06'
@@ -27,7 +27,7 @@ sitemap: false
 
 ### 🍴  “메이킷”은... 
 
-인공지능 기술을 활용해 사용자가 섭취하게 될 음식의 영양성분과 칼로리를 분석하고, 목적에 따라 조절 가능하도록 돕기 위해 진행되었습니다.
+사용자가 섭취하게 될 음식의 영양성분과 칼로리를 분석하고, 목적에 따라 조절 가능하도록 돕기 위해 진행되었습니다.
 <br>
   
 ### 🔎  "메이킷"의 목표는...
