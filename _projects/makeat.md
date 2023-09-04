@@ -13,7 +13,7 @@ image:
     480w:  /assets/img/projects/makeat.jpg
 links:
   - title: Link
-    url: https://github.com/hardy716/mak-e-at
+    url: https://play.google.com/store/apps/details?id=com.makeat.makeat
 sitemap: false
 ---
 
