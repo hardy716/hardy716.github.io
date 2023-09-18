@@ -18,7 +18,7 @@ invert_sidebar: true
 {:toc}
 
 
-## 상황
+## 상황 🤯
 
 ```
 ======== Exception caught by image resource service ================================================
@@ -36,12 +36,12 @@ Image key: NetworkImage("https://image-comic.pstatic.net/webtoon/779632/thumbnai
 이미지 URL이 403 Forbidden 오류를 반환했다는 에러이다.
 
 
-## 문제 분석
+## 문제 분석 🧐
 
 서버에서 특정 요청을 거부하였음을 의미하는데, Flutter의 `Image.network`가 사용하는 `User-Agent`가 서버에서 차단되었을 가능성을 생각해보았다.
 
 
-## 해결 방법
+## 해결 방법 😎
 
 Flutter의 Image.network를 사용하여 이미지를 가져올 때 User-Agent 값을 알기 위해 다음과 같이 진행했다.
 
@@ -59,9 +59,11 @@ Flutter의 Image.network를 사용하여 이미지를 가져올 때 User-Agent �
 
 ![err-5-1](/assets/img/blog/err/err-5-1.png){: width="30%"}
 
+<br></br>
+
 따라서 웹툰 썸네일 이미지 주소를 자세히 살펴보았다.
 
-> https://image-comic.pstatic.net/webtoon/779632/thumbnail/thumbnail_IMAG21_4048795649913205816.jpg
+> [https://image-comic.pstatic.net/webtoon/779632/thumbnail/thumbnail_IMAG21_4048795649913205816.jpg](https://image-comic.pstatic.net/webtoon/779632/thumbnail/thumbnail_IMAG21_4048795649913205816.jpg)
 
 [`pstatic.net`](http://pstatic.net) 도메인은 네이버에서 사용하는 CDN(Content Delivery Network) 도메인 중 하나이다.
 
@@ -97,6 +99,7 @@ Allow: /navercontest/2022/
 일반적인 브라우저에서는 이미지가 성공적으로 로드가 되고 있는 상황이기 때문에, 개발자 도구에서 확인한 User-Agent를 사용해보았고 에러를 해결할 수 있었다.
 
 > ![err-5-5](/assets/img/blog/err/err-5-5.png){: width="80%"}
+>
 > `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36`
 
 다른 일반적인 이미지 주소와 다르게, 웹툰 썸네일 이미지 주소가 불러와지지 않았던 이유는 서버 간의 정책 차이로 보인다. 에러가 발생했던 네이버 웹툰 서버(정확하게는, 네이버 웹툰의 썸네일 이미지를 호스팅하는 서버)의 경우, 웹툰 콘텐츠의 무단 복제나 스크래핑을 방지하기 위해 `User-Agent` 기반의 접근 제한을 설정하여 일반적인 웹 브라우저에서의 요청만을 허용한 것이 아닐까 생각한다. 결국 `User-Agent`를 일반적인 웹 브라우저의 `User-Agent`로 변경함으로써 문제를 해결하였지만, 이러한 방식은 서버의 정책을 우회하는 행위로 간주될 수 있기 때문에 주의가 필요할 것으로 보인다.
