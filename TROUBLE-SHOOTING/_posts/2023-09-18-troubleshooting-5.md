@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TroubleShooting - Image.network 403 에러
-image: /assets/img/blog/err/err-5-5.png
+image: /assets/img/blog/err/err-5-0.png
 accent_image: 
   background: url('/assets/img/sidebar/puzzle.jpg') center/cover
   overlay: false
