@@ -21,6 +21,7 @@ permalink: /docs/
 <!--- [SwiftUI](https://hardy716.github.io/blog/swiftui) --- 애플의 SwiftUI 언어를 다룹니다.-->
 - [TROUBLE SHOOTING](https://hardy716.github.io/blog/trouble-shooting/) --- 문제를 식별하고, 원인을 파악하여 적합한 해결책을 찾고 기록합니다.
 <!--- [PROMPT](https://hardy716.github.io/blog/prompt/) --- 생성형 AI에게 자연어로 높은 수준의 결과물을 얻기 위한 방법이나 관련 지식을 다룹니다.-->
+- [CS](https://hardy716.github.io/blog/cs) --- CS 스터디 내용을 기록합니다.
 - [ALGORITHM](https://hardy716.github.io/blog/algorithm) --- 백준과 프로그래머스, LeetCode에서 알고리즘 문제를 풀고 기록합니다.
 - [SQL](https://hardy716.github.io/blog/sql/) --- 프로그래머스와 LeetCode에서 SQL 문제를 풀고 기록합니다.
 <!--* [menu]{:.heading.flip-title} --- description for menu-->
