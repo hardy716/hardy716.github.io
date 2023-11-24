@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 데이터베이스
+title: 데이터베이스와 DBMS
 image: /assets/img/blog/cs/db/dbs.png
 accent_image: 
   background: url('/assets/img/sidebar/reference-room.jpg') center/cover
@@ -8,7 +8,7 @@ accent_image:
 accent_color: '#ccc'
 theme_color: '#ccc'
 description: >
-  데이터베이스에 대해 공부한 내용을 정리했습니다.
+  데이터베이스와 DBMS에 대해 공부한 내용을 정리했습니다.
 invert_sidebar: true
 ---
 
@@ -31,7 +31,7 @@ invert_sidebar: true
 
 #### 데이터베이스 관리 시스템, DBMS
 
-![file_system_problem](https://drive.google.com/file/d/1UrgkQ_WS_s_h419O4Hge0spRcrkRWvr6/view?usp=share_link)
+![file_system](/assets/img/blog/cs/db/file_system.png){: width="80%"}
 
 > [데이터베이스 관리 시스템의 등장 배경, 한라대학교 ICT융합공학부 (파일 다운로드)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjA9rq3j9uCAxWSa_UHHYr0BnkQFnoECA0QAQ&url=https%3A%2F%2Fict.halla.ac.kr%2Fbbs%2Fict%2F258%2F28843%2Fdownload.do&usg=AOvVaw3thxu9W5Enw4Gj2f312u_Q&opi=89978449)
 
@@ -48,7 +48,7 @@ DBMS와 관련해서 참고할 만한 좋은 블로그 글이 있어서 아래�
 
 ## 🛢️ DBMS의 종류
 
-![dbms](https://drive.google.com/file/d/1UroD4IXig6mzd-uNA7DDb3UPSoM_v0bx/view?usp=share_link)
+![dbms](/assets/img/blog/cs/db/dbms.png){: width="80%"}
 
 > [한빛 미디어 - 데이터베이스 이해하기](https://hongong.hanbit.co.kr/데이터베이스-이해하기-databasedb-dbms-sql의-개념/)
 
@@ -73,7 +73,7 @@ DBMS의 유형은 계층형(Hierarchical), 망형(Network), 관계형(Relational
 
 SQL 문을 사용하여 데이터베이스에서 정보를 저장, 업데이트, 제거, 검색 등을 수행할 수 있으며, 데이터베이스 성능을 유지 관리하고 최적화하는 데 사용할 수도 있다.
 
-![sql](https://drive.google.com/file/d/1UtLahU_u85mvFAev0SHLDzUxS99aEOYl/view?usp=share_link)
+![sql](/assets/img/blog/cs/db/sql.png){: width="80%"}
 
 SQL의 종류는 크게 DML, DDL, DCL로 구분할 수 있으며, DCL에서의 COMMIT, ROOLBACK, SAVEPOINT를 TCL로 따로 분류하는 문서도 있다.
 
