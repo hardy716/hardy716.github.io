@@ -6,14 +6,13 @@ description: >
   `Flutter`, `Firebase - Authentication, Firestore, Storage, Cloud Functions`
 date: '2023-09-06'
 image: 
-  path: /assets/img/projects/makeat.jpg
+  path: /assets/img/projects/makeat.png
   srcset: 
-    1920w: /assets/img/projects/makeat.jpg
-    960w:  /assets/img/projects/makeat.jpg
-    480w:  /assets/img/projects/makeat.jpg
+    1920w: /assets/img/projects/makeat.png
+    960w:  /assets/img/projects/makeat.png
+    480w:  /assets/img/projects/makeat.png
 links:
   - title: Link
-    url: https://play.google.com/store/apps/details?id=com.makeat.makeat
 sitemap: false
 ---
 
