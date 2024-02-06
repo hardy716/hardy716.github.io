@@ -1,28 +1,28 @@
 ---
 layout: project
-title: 'MAK-E-AT'
-caption: 음식 인식 기술을 활용한 식단 관리 및 영양 분석 서비스를 제공하는 모바일 헬스케어 애플리케이션입니다.
+title: 'DUKKMAP'
+caption: 최애 아이돌이 방문한 장소 위치 제공과 팬들을 위한 방명록 서비스를 제공하는 모바일 애플리케이션.
 description: >
   `Flutter`, `Firebase - Authentication, Firestore, Storage, Cloud Functions`
 date: '2023-09-06'
 image: 
-  path: /assets/img/projects/makeat.jpg
+  path: /assets/img/projects/dukkmap.png
   srcset: 
-    1920w: /assets/img/projects/makeat.jpg
-    960w:  /assets/img/projects/makeat.jpg
-    480w:  /assets/img/projects/makeat.jpg
+    1920w: /assets/img/projects/dukkmap.png
+    960w:  /assets/img/projects/dukkmap.png
+    480w:  /assets/img/projects/dukkmap.png
 links:
   - title: Link
-    url: https://play.google.com/store/apps/details?id=com.makeat.makeat
+
 sitemap: false
 ---
 
-# 메이킷 : 음식 인식 기술을 활용한 식단관리 및 영양 분석 애플리케이션
+# 덕맵
 
 * toc
 {:toc}
 
-## 👋🏻  메이킷을 소개합니다!
+## 👋🏻  덕맵을 소개합니다!
 <br>
 
 ### 🍴  “메이킷”은... 

@@ -1,23 +1,22 @@
 ---
 layout: project
-title: 'MAK-E-AT'
-caption: 음식 인식 기술을 활용한 식단 관리 및 영양 분석 서비스를 제공하는 모바일 헬스케어 애플리케이션입니다.
+title: 'GUKRULE'
+caption: AI 예산 시각화 및 관련 기사 요약 추천 서비스를 제공하는 모바일 애플리케이션입니다.
 description: >
   `Flutter`, `Firebase - Authentication, Firestore, Storage, Cloud Functions`
 date: '2023-09-06'
 image: 
-  path: /assets/img/projects/makeat.jpg
+  path: /assets/img/projects/gukrule.png
   srcset: 
-    1920w: /assets/img/projects/makeat.jpg
-    960w:  /assets/img/projects/makeat.jpg
-    480w:  /assets/img/projects/makeat.jpg
+    1920w: /assets/img/projects/gukrule.png
+    960w:  /assets/img/projects/gukrule.png
+    480w:  /assets/img/projects/gukrule.png
 links:
   - title: Link
-    url: https://play.google.com/store/apps/details?id=com.makeat.makeat
 sitemap: false
 ---
 
-# 메이킷 : 음식 인식 기술을 활용한 식단관리 및 영양 분석 애플리케이션
+# 국룰
 
 * toc
 {:toc}

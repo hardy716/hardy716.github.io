@@ -1,23 +1,23 @@
 ---
 layout: project
-title: 'MAK-E-AT'
-caption: 음식 인식 기술을 활용한 식단 관리 및 영양 분석 서비스를 제공하는 모바일 헬스케어 애플리케이션입니다.
+title: 'EBA센터'
+caption: 교육빅데이터응용연구센터(EBA센터) 홈페이지
 description: >
   `Flutter`, `Firebase - Authentication, Firestore, Storage, Cloud Functions`
 date: '2023-09-06'
 image: 
-  path: /assets/img/projects/makeat.jpg
+  path: /assets/img/projects/ebacenter.png
   srcset: 
-    1920w: /assets/img/projects/makeat.jpg
-    960w:  /assets/img/projects/makeat.jpg
-    480w:  /assets/img/projects/makeat.jpg
+    1920w: /assets/img/projects/ebacenter.png
+    960w:  /assets/img/projects/ebacenter.png
+    480w:  /assets/img/projects/ebacenter.png
 links:
   - title: Link
     url: https://play.google.com/store/apps/details?id=com.makeat.makeat
 sitemap: false
 ---
 
-# 메이킷 : 음식 인식 기술을 활용한 식단관리 및 영양 분석 애플리케이션
+# EBA CENTER
 
 * toc
 {:toc}
