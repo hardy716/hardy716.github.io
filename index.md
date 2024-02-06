@@ -7,12 +7,27 @@ sitemap: false
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=f0f6fc&lines=Hello%20I'm%20Hardy&font=Redressed&size=40)](https://git.io/typing-svg)
 
 
+#### 클린 아키텍처 적용에 관심을 가지고 있습니다.
+#### TDD에 관심을 가지고 있습니다.
+#### 효율적으로 일하려고 노력합니다.
+#### 공식 문서를 좋아합니다.
+
+
 ## ✓ CONTACT
 
-  [![Gmail](https://img.shields.io/badge/Gmail-EA4335.svg?&style=for-the-badge&logo=Gmail&logoColor=white)](mailto:dev.hardy716@gmail.com)
-  [![iCloud](https://img.shields.io/badge/iCloud-3693F3.svg?&style=for-the-badge&logo=iCloud&logoColor=white)](mailto:iabc716@icloud.com)
+<!--  https://simpleicons.org -->
+<!--  https://img.shields.io  -->
+ 
 
-<!--   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/devhardy) -->
+  [![Gmail](https://img.shields.io/badge/Gmail-EA4335.svg?&style=for-the-badge&logo=Gmail&logoColor=white)](mailto:dev.hardy716@gmail.com)
+  
+
+  
+  [![iCloud](https://img.shields.io/badge/iCloud-3693F3.svg?&style=for-the-badge&logo=iCloud&logoColor=white)](mailto:iabc716@icloud.com)
+  
+  [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/hardy716)
+
+   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/devhardy) 
 
 <!--<br>-->
 <!---->
@@ -40,9 +55,9 @@ sitemap: false
 
 ## ✓ CAREER
 
-- 2023.02 ~ 2023.05 :  한국산업기술진흥협회(KOITA) 전산직
+- 2023.02 ~ 2023.05 :  한국산업기술진흥협회(KOITA) (전산직)
 
-- 2022.09 ~ 2022.11 :  웹사이트 외주(EBA 센터) - FE
+- 2022.09 ~ 2022.11 :  EBA센터 홈페이지 제작 (외주/웹 프론트엔드)
 
 
 <!--<br>-->
@@ -55,15 +70,36 @@ sitemap: false
 
 <br>
 
-## ✓ EDUCATION
 
-- 2023.06 ~ 2023.07 : 앨런 Swift 문법 마스터 스쿨
+## ✓ EDUCATION
 
 - 2022.07 ~ 2023.01 :  K-Software Bootcamp 1기
 
-- 2022.07 ~ 2022.08 :  부스트코스 코칭스터디 - 리드 부스터로 활동
+- 2022.09 ~ 2022.11 :  앨런 Swift 문법 마스터 스쿨
 
 <br>
+
+
+## ✓ ACTIVITY
+
+- 2023.10 ~ 진행 중   :  (프로젝트/팀/Flutter) 장소 추천 서비스, 플랙
+
+- 2024.01 ~ 2024.02 :  (챌린지/개인/Flutter) 플러터 부트 챌린지 2기 수료
+
+- 2023.09 ~ 2023.10 :  (챌린지/개인/Flutter) 노마드코더 플러터 2주 챌린지 수료
+
+- 2023.09 ~ 2023.09 :  (해커톤/팀/SwiftUI) UNITHON 10TH 해커톤(3일) 특별상 수상
+
+- 2023.07 ~ 2023.09 :  (프로젝트/팀/Flutter) 음식 인식 기술을 활용한 식단 관리 서비스, 메이킷
+
+- 2022.09 ~ 2022.12 :  (외주/팀/Next.js(웹)) EBA 센터 홈페이지 제작 및 배포
+
+- 2022.09 ~ 2022.11 :  (프로젝트/팀/Java(안드로이드)) AI 예산 시각화 및 관련 기사 요약 추천 서비스, 국룰
+
+- 2022.09 ~ 2022.11 :  (챌린지/팀/Python) 부스트코스 코칭스터디에서 리드부스터로 활동 
+
+<br>
+
 
 ## ✓ BOJ & STATS
 
