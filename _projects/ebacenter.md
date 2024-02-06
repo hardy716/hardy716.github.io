@@ -3,8 +3,8 @@ layout: project
 title: 'EBA센터'
 caption: 교육빅데이터응용연구센터(EBA센터) 홈페이지
 description: >
-  `Flutter`, `Firebase - Authentication, Firestore, Storage, Cloud Functions`
-date: '2023-09-06'
+    `Next.js`, `Firebase - Firestore`, `Recoil`, `react-query`, `Tailwind CSS` ...
+date: '2022-11-29'
 image: 
   path: /assets/img/projects/ebacenter.png
   srcset: 
@@ -22,8 +22,6 @@ sitemap: false
 * toc
 {:toc}
 
-## 👋🏻  EBA센터
-<br>
 
 ### 🏙️  “EBA센터”는... 
 
