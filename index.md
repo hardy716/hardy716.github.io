@@ -7,26 +7,24 @@ sitemap: false
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=f0f6fc&lines=Hello%20I'm%20Hardy&font=Redressed&size=40)](https://git.io/typing-svg)
 
 
-#### 클린 아키텍처 적용에 관심을 가지고 있습니다.
-#### TDD에 관심을 가지고 있습니다.
-#### 효율적으로 일하려고 노력합니다.
-#### 공식 문서를 좋아합니다.
+클린 아키텍처 적용에 관심을 가지고 있습니다.
+
+TDD에 관심을 가지고 있습니다.
+
+효율적으로 일하려고 노력합니다.
+
+공식 문서를 좋아합니다.
 
 
-## ✓ CONTACT
+### ✓ CONTACT
 
 <!--  https://simpleicons.org -->
 <!--  https://img.shields.io  -->
  
 
   [![Gmail](https://img.shields.io/badge/Gmail-EA4335.svg?&style=for-the-badge&logo=Gmail&logoColor=white)](mailto:dev.hardy716@gmail.com)
-  
-
-  
   [![iCloud](https://img.shields.io/badge/iCloud-3693F3.svg?&style=for-the-badge&logo=iCloud&logoColor=white)](mailto:iabc716@icloud.com)
-  
   [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/hardy716)
-
    [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/devhardy) 
 
 <!--<br>-->
@@ -53,7 +51,7 @@ sitemap: false
   
 <br>
 
-## ✓ CAREER
+### ✓ CAREER
 
 - 2023.02 ~ 2023.05 :  한국산업기술진흥협회(KOITA) (전산직)
 
@@ -71,7 +69,7 @@ sitemap: false
 <br>
 
 
-## ✓ EDUCATION
+### ✓ EDUCATION
 
 - 2022.07 ~ 2023.01 :  K-Software Bootcamp 1기
 
@@ -80,7 +78,7 @@ sitemap: false
 <br>
 
 
-## ✓ ACTIVITY
+### ✓ ACTIVITY
 
 - 2023.10 ~ 진행 중   :  (프로젝트/팀/Flutter) 장소 추천 서비스, 플랙
 
@@ -101,7 +99,7 @@ sitemap: false
 <br>
 
 
-## ✓ BOJ & STATS
+### ✓ BOJ & STATS
 
 <br>
 
