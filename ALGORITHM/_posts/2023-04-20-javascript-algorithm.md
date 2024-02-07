@@ -1398,7 +1398,6 @@ function solution(numbers, target) {
 
 
 
-
 /* check(검증) - Big O Notation */
 
 // time complexity  : O(2^n)
@@ -1406,6 +1405,67 @@ function solution(numbers, target) {
 
 // space complexity : O(n)
 // 호출 스택의 크기가 n에 비례하며, 깊이가 n일 때의 호출 스택의 크기가 n에 해당하기 때문
+```
+
+#### [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)
+
+```javascript
+/* redefine */
+
+// input1: 시작 단어, begin
+// input2: 타겟 단어, target
+// input3: 단어의 집합, words
+// output: 최소 몇 단계의 과정을 거쳐야하는지(변환할 수 없다면 0)
+
+// cond1 : begin, target을 이루는 단어는 알파벳 소문자로 구성
+// cond2 : 단어의 길이는 [3, 10]이며, 모든 단어의 길이는 동일
+// cond3 : words의 길이는 [3, 50]
+// cond4 : begin과 target은 상이
+
+// logic : 한 번에 한 개의 알파벳만 바꿀 수 있으며, 변환된 단어는 words에 있어야 함
+
+
+/* solution */
+function solution(begin, target, words) {
+    if (!words.includes(target)) return 0;
+    
+    let answers = [];
+    let visited = {};
+    
+    let queue = [[begin, 0]];
+    while (queue.length) {
+        let [before, answer] = queue.shift();
+        if (visited[before]) continue;
+        
+        let cnt = 0;
+        
+        visited[before] = true;
+        
+        if (before === target) {
+            answers.push(answer);
+            continue;
+        }
+        
+        for (let after of words) {
+            for (let i=0; i<after.length; i++) {
+                if (before[i] !== after[i]) cnt++;
+            }
+            if (cnt === 1) queue.push([after, answer + 1]);
+            cnt = 0;
+        }
+    }
+    
+    return Math.min(...answers);
+}
+
+
+/* 결과 */
+// 정확성
+// 테스트 1 〉    통과 (0.10ms, 33.5MB)
+// 테스트 2 〉    통과 (0.27ms, 33.5MB)
+// 테스트 3 〉    통과 (0.48ms, 33.4MB)
+// 테스트 4 〉    통과 (0.10ms, 33.4MB)
+// 테스트 5 〉    통과 (0.07ms, 33.4MB)
 ```
 
 
