@@ -33,7 +33,7 @@ permalink: /docs/
 
 ## PROJECT
 
-- [PLAC](https://hardy716.github.io/projects/plac/) --- 장소 추천 및 플랜 생성 서비스, `플랙`
+<!---[PLAC](https://hardy716.github.io/projects/plac/) --- 장소 추천 및 플랜 생성 서비스, `플랙`-->
 - [DUKKMAP](https://hardy716.github.io/projects/dukkmap/) --- 최애 아이돌이 방문한 장소 위치 제공과 팬들을 위한 방명록 서비스, `덕맵`
 - [MAK-E-AT](https://hardy716.github.io/projects/makeat/) --- 음식 인식 기술을 활용한 식단 관리 서비스, `메이킷`
 - [EBA센터](https://hardy716.github.io/projects/ebacenter/) --- 교육빅데이터응용연구센터(`EBA센터`) 홈페이지 제작 및 배포

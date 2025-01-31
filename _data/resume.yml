@@ -20,9 +20,6 @@ basics:
     - network: "GitHub"
       username: "hardy716"
       url: "https://github.com/hardy716"
-    - network: "LinkedIn"
-      username: "Shin Hyeonho"
-      url: "https://www.linkedin.com/in/devhardy/?original_referer="
 work:
   - company: "KOITA"
     position: "IT staff"
@@ -61,14 +58,14 @@ education:
 #    endDate: ""
 #    gpa: "0.0"
 #    courses: ""
-  - institution: "Allen Swift Grammar Master School"
-    studyType: "Online-Bootcamp"
-    startDate: "2023-06-24"
-    endDate: "2023-07-25"
   - institution: "K-Software Empowerment Bootcamp"
     studyType: "Offine-Bootcamp"
     startDate: "2022-07-15"
     endDate: "2023-01-10"
+  - institution: "Allen Swift Grammar Master School"
+    studyType: "Online-Bootcamp"
+    startDate: "2022-09-01"
+    endDate: "2022-11-31"
   - institution: "Python 4 Everybody 2022"
     studyType: "Ontact-Study"
     startDate: "2022-07-14"
@@ -85,24 +82,23 @@ education:
 #    website: ""
 #    summary: ""
 skills:
-  - name: "Web Development"
-    level: "Junior"
+  - name: "Flutter"
+    level: "Master"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "App Development"
-    level: "Junior"
-    keywords:
-      - "Flutter"
-      - "Swift"
+      - "MVVM, CA, VIPER"
+      - "riverpod, get_it, dio, retrofit, freezed"
+#  - name: ""
+#    level: "Junior"
+#    keywords:
+#      - "Flutter"
+#      - "Swift"
 #  - name: "Compression"
 #    level: "Master"
 #    keywords:
 #      - "Mpeg"
 languages:
   - language: "English"
-    fluency: "TOEIC : 860 & TS : Advanced Low"
+    fluency: "TOEIC : 860, TS : Advanced Low"
 #interests:
 #  - name: ""
 #    keywords:

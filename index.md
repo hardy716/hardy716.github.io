@@ -23,9 +23,9 @@ TDD에 관심을 가지고 있습니다.
  
 
   [![Gmail](https://img.shields.io/badge/Gmail-EA4335.svg?&style=for-the-badge&logo=Gmail&logoColor=white)](mailto:dev.hardy716@gmail.com)
-  [![iCloud](https://img.shields.io/badge/iCloud-3693F3.svg?&style=for-the-badge&logo=iCloud&logoColor=white)](mailto:iabc716@icloud.com)
+  [![iCloud](https://img.shields.io/badge/iCloud-3693F3.svg?&style=for-the-badge&logo=iCloud&logoColor=white)](mailto:hardy716@icloud.com)
   [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/hardy716)
-   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/devhardy) 
+<!--   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/devhardy) -->
 
 <!--<br>-->
 <!---->
@@ -53,9 +53,11 @@ TDD에 관심을 가지고 있습니다.
 
 ### ✓ CAREER
 
-- 2023.02 ~ 2023.05 :  한국산업기술진흥협회(KOITA) (전산직)
+- 2024.02 ~         :   (주)지엠티 (비전개발센터/연구원)
 
-- 2022.09 ~ 2022.11 :  EBA센터 홈페이지 제작 (외주/웹 프론트엔드)
+- 2023.02 ~ 2023.05 :   한국산업기술진흥협회(KOITA) (전산/계약직 3개월)
+
+- 2022.09 ~ 2022.11 :   EBA센터 홈페이지 제작 (웹/외주)
 
 
 <!--<br>-->
@@ -95,16 +97,15 @@ TDD에 관심을 가지고 있습니다.
 - 2022.09 ~ 2022.11 :  (프로젝트/팀/Java(안드로이드)) AI 예산 시각화 및 관련 기사 요약 추천 서비스, 국룰
 
 - 2022.09 ~ 2022.11 :  (챌린지/팀/Python) 부스트코스 코칭스터디에서 리드부스터로 활동 
-
 <br>
 
 
-### ✓ BOJ & STATS
-
-<br>
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=turtley)](https://solved.ac/turtley/)
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=hardy716&hide_title=true&show_icons=true&include_all_commits=true&disable_animations=true&theme=tokyonight&text_color=000000&bg_color=ffffff&icon_color=00aaff)](https://github.com/hardy716/github-readme-stats)
+<!--### ✓ BOJ & STATS-->
+<!---->
+<!--<br>-->
+<!---->
+<!--[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=turtley)](https://solved.ac/turtley/)-->
+<!--[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=hardy716&hide_title=true&show_icons=true&include_all_commits=true&disable_animations=true&theme=tokyonight&text_color=000000&bg_color=ffffff&icon_color=00aaff)](https://github.com/hardy716/github-readme-stats)-->
 
 
 
